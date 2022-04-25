@@ -1,0 +1,85 @@
+//	Typography
+$font-primary: "sentico_sansregular";
+$font-primary-bold: "sentico_sansbold";
+$font-primary-light: "sentico_sanslight";
+$font-primary-thin: "sentico_sansthin";
+$font-primary-medium: "sentico_medium";
+$font-long-texts: "open_sansregular";
+
+//	Size Fonts
+$size-small: 14px;
+$size-normal: 16px;
+$size-medium: 25px;
+$size-big: 41px;
+$size-large-big: 67px;
+$size-extra-big: 109px;
+
+//	Base Colors
+$monge-blue: #0079c2;
+$prussian-blue: #001e32;
+$regal-blue: #003c64;
+$cerulean-blue: #00a7cf;
+$white: #ffffff;
+$cody-gray: #1d1d1d;
+$champagne: #f9f2ed;
+$heaven: #f8f8f8;
+$urban-sky: #f0f0f0;
+$line-gray: #d8d8d8;
+$silver-chalice: #a5a5a5;
+$support-gray: #929292;
+$chestnut: #b8423e;
+$joy: #f34a65;
+$gold-drop: #f27d00;
+$tulip-tree: #e6b627;
+$goblin: #347d3e;
+$green-apple: #49af57;
+
+// Accessibility Colors
+$the-blue: #3455db;
+$special-blue: #00008b;
+$special-link: #0000e0;
+$special-pure-dark: #000000;
+$special-swamp: #4b5555;
+
+$special-fire: #aa0000;
+$special-sea: #007faa;
+$special-poison: #7600a8;
+$special-pumpkin: #aa5d00;
+$special-moss: #806c00;
+$special-nature: #005500;
+$special-pool: #008080;
+
+//	Breakpoints
+$tablet-size: "screen and (min-width: 767px)";
+$desktop-size: "screen and (min-width: 991px)";
+$wide-size: "screen and (min-width: 1200px)";
+$mobile-size: "screen and (max-width: 330px)";
+$only-mobile: "screen and (max-width: 560px)";
+
+// --------------------------------------------------------------------------
+// Variables: Theme
+// --------------------------------------------------------------------------
+$font-size-default: 1rem !default;
+$font-size-lg: 1.25rem !default;
+$font-size-sm: 0.85rem !default;
+$font-size-xs: 0.75rem !default;
+
+// --------------------------------------------------------------------------
+// Variables: Typography
+// --------------------------------------------------------------------------
+
+$headings-font-color: inherit !default;
+$headings-font-weight: 500 !default;
+$headings-margin-bottom: 0.5rem !default;
+
+// Heading Attr - h1, h2, h3, h4, h5, h6
+// --------------------------------------------------------------------------
+
+$em-size-default: 18;
+
+$font-size-h1: 41;
+$font-size-h2: 25;
+$font-size-h3: 25;
+$font-size-h4: 25;
+$font-size-h5: 16;
+$font-size-h6: 14;

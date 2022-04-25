@@ -6,7 +6,11 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": []
+    "types": [],
+    "lib": [
+      "dom",
+      "es2018"
+    ]
   },
   "exclude": [
     "src/test.ts",

@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/wr-example-component/src/test.ts",
-            "tsConfig": "projects/wr-example-component/tsconfig.spec.json",
-            "karmaConfig": "projects/wr-example-component/karma.conf.js"
+            "tsConfig": "projects/wr-example-component/tsconfig.spec.json"
           }
         }
       }
@@ -61,9 +62,7 @@
               "projects/wr-example-widget/src/favicon.ico",
               "projects/wr-example-widget/src/assets"
             ],
-            "styles": [
-              "projects/wr-example-widget/src/styles.scss"
-            ],
+            "styles": ["projects/wr-example-widget/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -120,18 +119,14 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/wr-example-widget/src/test.ts",
             "polyfills": "projects/wr-example-widget/src/polyfills.ts",
             "tsConfig": "projects/wr-example-widget/tsconfig.spec.json",
-            "karmaConfig": "projects/wr-example-widget/karma.conf.js",
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/wr-example-widget/src/favicon.ico",
               "projects/wr-example-widget/src/assets"
             ],
-            "styles": [
-              "projects/wr-example-widget/src/styles.scss"
-            ],
+            "styles": ["projects/wr-example-widget/src/styles.scss"],
             "scripts": []
           }
         }
