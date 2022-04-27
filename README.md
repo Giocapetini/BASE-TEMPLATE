@@ -29,3 +29,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Windriver base template
+
+Rename/Replace the following:
+
+ - wr-example-component ( everything from file and folder names, to paths etc.)
+ - WrExampleComponentModule
+ - WrExampleComponentComponent
+ - WrExampleComponentService
+ - wr-example-widget ( everything from file and folder names, to paths etc.)
+
+
