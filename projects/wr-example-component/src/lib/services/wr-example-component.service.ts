@@ -5,9 +5,28 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class WrExampleComponentService {
+
+  data = 0;
   constructor(
     // @Inject('env') private environment, private http: HttpClient
-    ) {}
+  ) { }
+
+  setDataTEN() {
+    this.data = 10;
+  }
+
+  clearData(){
+    this.data = 0;
+  }
+
+  setValue(callback: (dataNumber: number) => void, dataNumber: number) {
+    if (dataNumber !== 2) {
+      this.data = dataNumber
+      callback(this.data);
+    }
+  }
+
+
 
   /* @@ EXEMPLE FUNCTION GET @@ */
 

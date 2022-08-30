@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WrExampleComponentService } from './services/wr-example-component.service';
 
 @Component({
   selector: 'wr-example-component',
@@ -6,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./wr-example-component.component.scss'],
 })
 export class WrExampleComponentComponent implements OnInit {
-  constructor() {}
+  constructor(
+    private service: WrExampleComponentService
+    ) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.setServiceOne();
+  }
+
+  setServiceOne() {
+    this.service.data = 1;
+  }
+  serviceSetTen(){
+    this.service.setDataTEN();
+  }
 }
