@@ -1,9 +1,10 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { WrExampleComponentService } from './services/wr-example-component.service';
 import { WrExampleComponentComponent } from './wr-example-component.component';
+import { TestComponent } from './components/test/test.component';
 
 @NgModule({
-  declarations: [WrExampleComponentComponent],
+  declarations: [WrExampleComponentComponent, TestComponent],
   imports: [],
   providers: [WrExampleComponentService],
   exports: [WrExampleComponentComponent],
